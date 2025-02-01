@@ -27,11 +27,45 @@
   </head>
   <body class="sora">
     <header>
-      <section>
+      <section class="border-b-2 border-green-300 lg:border-transparent">
         <div
-          class="bg-gradient-to-b from-white to-[#EFEBE3] rotate-180 h-52 w-52"
+          class="container px-4 lg:px-0 mx-auto py-5 lg:flex items-center justify-between"
         >
-          name
+          <div class="">
+            <img
+              class="hidden lg:block"
+              src="./assets/logo-header.png"
+              alt=""
+            />
+            <img class="lg:hidden" src="./assets//logo-footer.png" alt="" />
+          </div>
+          <div class="lg:flex hidden items-center justify-between gap-x-40">
+            <div class="">
+              <ul class="flex items-center gap-x-8">
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+              </ul>
+            </div>
+            <div class="flex items-center gap-x-10">
+              <div class="flex gap-x-8">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-plus"></i>
+              </div>
+              <div class="flex gap-x-5">
+                <button
+                  class="py-2 px-8 rounded-lg border border-[#179800] font-normal text-xl duration-700 ease-in-out text-[#111111] hover:text-white hover:bg-[#179800] hover:border-transparent"
+                >
+                  Login
+                </button>
+                <button
+                  class="py-2 px-8 rounded-lg border hover:border-[#179800] font-normal text-xl duration-700 ease-in-out hover:text-[#111111] hover:bg-transparent text-white bg-[#179800]"
+                >
+                  Register
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </header>

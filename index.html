@@ -13,12 +13,6 @@
       src="https://kit.fontawesome.com/b41c6923fc.js"
       crossorigin="anonymous"
     ></script>
-    <link
-      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <script src="https://cdn.tailwindcss.com"></script>
     <style>
       .sora {
         font-family: "Sora", serif;
@@ -27,67 +21,78 @@
   </head>
   <body class="sora">
     <header>
-      <section class="border-b-2 border-green-300 lg:border-transparent">
-        <div
-          class="container px-4 lg:px-0 mx-auto py-5 lg:flex items-center justify-between"
-        >
-          <div class="">
-            <img
-              class="hidden lg:block"
-              src="./assets/logo-header.png"
-              alt=""
-            />
-            <img class="lg:hidden" src="./assets//logo-footer.png" alt="" />
-          </div>
-          <div class="lg:flex hidden items-center justify-between gap-x-40">
+      <section class="bg-gradient-to-b from-white to-[#EFEBE3]">
+        <div class="border-b-2 border-green-300 lg:border-transparent">
+          <div
+            class="container px-4 lg:px-0 mx-auto py-5 lg:flex items-center justify-between"
+          >
             <div class="">
-              <ul class="flex items-center gap-x-8">
-                <li><a href="#">Product</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact us</a></li>
-              </ul>
+              <img
+                class="hidden lg:block"
+                src="./assets/logo-header.png"
+                alt=""
+              />
+              <img class="lg:hidden" src="./assets//logo-footer.png" alt="" />
             </div>
-            <div class="flex items-center gap-x-10">
-              <div class="flex gap-x-8">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <i class="fa-solid fa-cart-plus"></i>
+            <div class="lg:flex hidden items-center justify-between gap-x-40">
+              <div class="">
+                <ul class="flex items-center gap-x-8">
+                  <li><a href="#">Product</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Contact us</a></li>
+                </ul>
               </div>
-              <div class="flex gap-x-5">
-                <button
-                  class="py-2 px-8 rounded-lg border border-[#179800] font-normal text-xl duration-700 ease-in-out text-[#111111] hover:text-white hover:bg-[#179800] hover:border-transparent"
-                >
-                  Login
-                </button>
-                <button
-                  class="py-2 px-8 rounded-lg border hover:border-[#179800] font-normal text-xl duration-700 ease-in-out hover:text-[#111111] hover:bg-transparent text-white bg-[#179800]"
-                >
-                  Register
-                </button>
+              <div class="flex items-center gap-x-10">
+                <div class="flex gap-x-8">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <i class="fa-solid fa-cart-plus"></i>
+                </div>
+                <div class="flex gap-x-5">
+                  <button
+                    class="py-2 px-8 rounded-lg border border-[#179800] font-normal text-xl duration-700 ease-in-out text-[#111111] hover:text-white hover:bg-[#179800] hover:border-transparent"
+                  >
+                    Login
+                  </button>
+                  <button
+                    class="py-2 px-8 rounded-lg border hover:border-[#179800] font-normal text-xl duration-700 ease-in-out hover:text-[#111111] hover:bg-transparent text-white bg-[#179800]"
+                  >
+                    Register
+                  </button>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+        <section>
+          <!-- Banner Part Start -->
 
-      <section>
-        <!-- Banner Part Start -->
-
-        <div class="container mx-auto py-28 px-4 lg:px-0">
-          <div>
-            <h2 class="text-center">
-              Freshness You Can <br />
-              Count On, Prices You’ll Love!
-            </h2>
-            <p class="text-center">
-              Shop your daily essentials at unbeatable prices. From fresh
-              produce to pantry <br />
-              staples, we’ve got you covered every day!
-            </p>
-            <div class="text-center">
-              <img src="./assets/hero-vegetables.png" alt="" />
+          <div class="container mx-auto pt-28 px-4 lg:px-0">
+            <div>
+              <h2
+                class="text-center font-semibold text-[32px] lg:text-[56px] text-[#111111]"
+              >
+                Freshness
+                <span class="text-[#179800]"
+                  >You Can <br />
+                  Count</span
+                >
+                On, Prices You’ll Love!
+              </h2>
+              <p class="text-center text-base text-[#111111] font-light mt-4">
+                Shop your daily essentials at unbeatable prices. From fresh
+                produce to pantry <br />
+                staples, we’ve got you covered every day!
+              </p>
+              <div class="mt-4">
+                <img
+                  class="mx-auto"
+                  src="./assets/hero-vegetables.png"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
-        </div>
+        </section>
       </section>
     </header>
     <main></main>
